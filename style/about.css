@@ -58,6 +58,13 @@ section li {
     color: #e0e0e0;
 }
 
+section ul li::before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: #0d6efd;
+}
+
 footer {
     background-color: #061532;
 }
