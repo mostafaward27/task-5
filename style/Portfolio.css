@@ -1,0 +1,121 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.pading {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+nav {
+    background-color: #061532;
+}
+
+.nav-link.active {
+    color: #ffffff !important;
+    font-weight: bold;
+    border-bottom: 2px solid #ffffff;
+}
+
+.CU {
+    color: #ffffff !important;
+}
+
+section {
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../asats/p-1.jpg) center / cover no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section .row {
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+section p,
+section li {
+    font-size: 1.05rem;
+    color: #e0e0e0;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #061532;
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #fff;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: #ffffff;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #061532;
+    color: #fff;
+}
+
+@media (max-width: 992px) {
+    section {
+        min-height: auto;
+        padding: 2rem 1rem;
+    }
+
+    section .row {
+        width: 100% !important;
+        margin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-img-top {
+        height: 180px;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .card-text {
+        font-size: 0.85rem;
+    }
+}
