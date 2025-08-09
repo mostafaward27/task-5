@@ -59,10 +59,10 @@ section li {
 }
 
 section ul li::before {
-    content: '✔';
-    position: absolute;
-    left: 0;
-    color: #0d6efd;
+    content: '✔' !important;
+    position: absolute !;
+    left: 0 !important;
+    color: #0d6efd !important;
 }
 
 footer {
